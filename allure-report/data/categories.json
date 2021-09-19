@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Timed out retrying: Expected to find element: `div[class=\"Textinput-Hint Textinput-Hint_state_error\"]`, but never found it.",
+      "children" : [ {
+        "name" : "None-existent login test",
+        "uid" : "573c0d1a0ffe9dbb",
+        "parentUid" : "cd4c1336862e18dff40bb593de86507b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1604325353400,
+          "stop" : 1604325373848,
+          "duration" : 20448
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cd4c1336862e18dff40bb593de86507b"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

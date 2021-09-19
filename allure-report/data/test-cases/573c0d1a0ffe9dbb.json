@@ -1,0 +1,404 @@
+{
+  "uid" : "573c0d1a0ffe9dbb",
+  "name" : "None-existent login test",
+  "fullName" : "None-existent login test",
+  "historyId" : "b8c491841fa07d24f4cd0d22e7309fcd",
+  "time" : {
+    "start" : 1604325353400,
+    "stop" : 1604325373848,
+    "duration" : 20448
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying: Expected to find element: `div[class=\"Textinput-Hint Textinput-Hint_state_error\"]`, but never found it.",
+  "statusTrace" : "AssertionError: Timed out retrying: Expected to find element: `div[class=\"Textinput-Hint Textinput-Hint_state_error\"]`, but never found it.\n    at Context.eval (https://passport.yandex.ru/__cypress/tests?p=cypress\\integration\\habr_cypress_test.spec.js:109:72)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying: Expected to find element: `div[class=\"Textinput-Hint Textinput-Hint_state_error\"]`, but never found it.",
+    "statusTrace" : "AssertionError: Timed out retrying: Expected to find element: `div[class=\"Textinput-Hint Textinput-Hint_state_error\"]`, but never found it.\n    at Context.eval (https://passport.yandex.ru/__cypress/tests?p=cypress\\integration\\habr_cypress_test.spec.js:109:72)",
+    "steps" : [ {
+      "name" : "fixture (\"cypressTests\")",
+      "time" : {
+        "start" : 1604325353483,
+        "stop" : 1604325353500,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "log (\"Переход на страницу авторизации\")",
+      "time" : {
+        "start" : 1604325353506,
+        "stop" : 1604325353515,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "visit (\"https://passport.yandex.ru/\")",
+      "time" : {
+        "start" : 1604325353516,
+        "stop" : 1604325368026,
+        "duration" : 14510
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://mc.yandex.ru/watch/3?wmode=7&page-url=https://passport.yandex.ru/auth?retpath=https%3A%2F%2Fpassport.yandex.ru%2Fprofile&noreturn=1&page-ref=https://passport.yandex.ru/__/&charset=utf-8&ut=noindex&browser-info=pv:1:gdpr::vf:1oc1oo18i9y4fw:fp:7575:fu:0:en:utf-8:la:ru-RU:v:241:cn:1:dp:0:ls:0:hid:61396497:z:180:i:20201102165607:et:1604325368:c:1:rn:547075498:rqn:1:u:1604325368705595794:w:1000x660:s:1536x864x24:sk:1.25:ifr:1:sti:1:hdl:1:cpf:1:ns:1604325353775:ds:0,0,59,2,5,0,,7334,2,,,,7409:dsn:0,0,59,2,4,0,,7340,3,,,,7408:ti:1:st:1604325368",
+      "time" : {
+        "start" : 1604325368025,
+        "stop" : 1604325368025,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "log (\"вод несуществующего логина\")",
+      "time" : {
+        "start" : 1604325368026,
+        "stop" : 1604325368035,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\"input[id=\"passp-field-login\"]\")",
+      "time" : {
+        "start" : 1604325368035,
+        "stop" : 1604325368087,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "type (\"test252test\")",
+      "time" : {
+        "start" : 1604325368087,
+        "stop" : 1604325368555,
+        "duration" : 468
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://passport.yandex.ru/monitoring?app=passport&page=auth.v2&event=load&tm.navigationStart=1604325353775&tm.unloadEventStart=0&tm.unloadEventEnd=0&tm.redirectStart=0&tm.redirectEnd=0&tm.fetchStart=1604325353780&tm.domainLookupStart=1604325353780&tm.domainLookupEnd=1604325353780&tm.connectStart=1604325353780&tm.connectEnd=1604325353780&tm.secureConnectionStart=0&tm.requestStart=1604325353782&tm.responseStart=1604325353841&tm.responseEnd=1604325353843&tm.domLoading=1604325353849&tm.domInteractive=1604325361183&tm.domContentLoadedEventStart=1604325361184&tm.domContentLoadedEventEnd=1604325361186&tm.domComplete=1604325368009&tm.loadEventStart=1604325368010&tm.loadEventEnd=1604325368018&nav.type=0&nav.redirectCount=0",
+      "time" : {
+        "start" : 1604325368554,
+        "stop" : 1604325368554,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://mc.yandex.ru/watch/784657?wmode=7&page-url=https://passport.yandex.ru/auth?retpath=https%3A%2F%2Fpassport.yandex.ru%2Fprofile&noreturn=1&page-ref=https://passport.yandex.ru/__/&charset=utf-8&exp=wp8-1-_2M-1UYpAWaUFaikUVHcmlVMD-5qOzLeVyGet7nuEwzSS2x90tTcpEmPs5X8Bw9oV3t51YQJnZ9oI9nhEA_qbA8tj9JDtf6SGFzOnaDUwThC52laNMgVf3y_Kd96uw6TO5p17dnXO-6hLEab9TtiGnTET4D5m_rFUCl1CSfDpwXCiQnOIm-ZVsqLY9Q9xc7p_97Z7tRocLgsFo_8a1IecRyAsDx5Uno3qKK6RKYzLzc5WvnSO7R6w4mmU_Ba_U3zqif79EmrRfOQH8Go10pRAnzZkvm0mvYTPpvg7oIeDnSUwfQPLwjjTVtGZqHZBWHkFqUedgDmh6MMUw9MX0Mj8yM3ger6-l2iGmCSoUUBLt698lsfuUhKPxkXRxWyU2ajAZP_34vaDF73DXteeE4BoVsRl-5VUCSHula97LVisxtGi1TuCVjcSHK7phxottOxYI2xfeI31vXmDxw6ubR2u1BE9ZYW__Qad_BiPWlHU2vSK2QKbUVPIEaSrt_L8lDghw0HfeIs2OXW13DqD-bN1RvRwfFDi75eEP8-3cPeu79l1JeyzRXPSH2gGJQnKrGgYX2TlVeRXTox1vE8ROHNWZxBGhN8APJCMz3cJF_VN8eHdB9GbFirJEpUhwiE8F3iCJyIU8zxJcnLbDG76KCndGrgI1&ut=noindex&browser-info=pv:1:gdpr:8-0:vf:1oc1oo18i9y4fw:fp:7575:fu:0:en:utf-8:la:ru-RU:v:241:cn:2:dp:1:ls:0:hid:61396497:z:180:i:20201102165608:et:1604325368:c:1:rn:724359987:rqn:1:u:1604325368705595794:w:1000x660:s:1536x864x24:sk:1.25:ifr:1:sti:1:hdl:1:cpf:1:ns:1604325353775:ds:0,0,59,2,5,0,,7334,2,14234,14235,8,7409:dsn:0,0,59,2,4,0,,7340,3,14234,14234,8,7408:rqnl:1:pp::ti:1:st:1604325368:t:Авторизация",
+      "time" : {
+        "start" : 1604325368555,
+        "stop" : 1604325368555,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "log (\"Клик по кнопке \"Войти\"\")",
+      "time" : {
+        "start" : 1604325368555,
+        "stop" : 1604325368563,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\"button[class=\"Button2 Button2_size_l Button2_view_action Button2_width_max Button2_type_submit\"]\")",
+      "time" : {
+        "start" : 1604325368563,
+        "stop" : 1604325368593,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1604325368593,
+        "stop" : 1604325368789,
+        "duration" : 196
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST https://passport.yandex.ru/registration-validations/auth/multi_step/start",
+      "time" : {
+        "start" : 1604325368789,
+        "stop" : 1604325368789,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "log (\"Проверка что появился элемент сигнализирующий об ошибке\")",
+      "time" : {
+        "start" : 1604325368790,
+        "stop" : 1604325368799,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\"div[class=\"Textinput-Hint Textinput-Hint_state_error\"]\")",
+      "time" : {
+        "start" : 1604325368799,
+        "stop" : 1604325372836,
+        "duration" : 4037
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "expected **div[class=\"Textinput-Hint Textinput-Hint_state_error\"]** to exist in the DOM assert",
+      "time" : {
+        "start" : 1604325372832,
+        "stop" : 1604325372832,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "https://passport.yandex.ru/auth/welcome?retpath=https%3A%2F%2Fpassport.yandex.ru%2Fprofile&noreturn=1 new url",
+      "time" : {
+        "start" : 1604325372832,
+        "stop" : 1604325372832,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://mc.yandex.ru/watch/784657?page-url=goal://passport.yandex.ru/2step_domik_show_pass_form&page-ref=https://passport.yandex.ru/auth/welcome?retpath=https%3A%2F%2Fpassport.yandex.ru%2Fprofile&noreturn=1&charset=utf-8&ut=noindex&browser-info=ar:1:gdpr:8-0:vf:1oc1oo18i9y4fw:fu:3:en:utf-8:la:ru-RU:v:241:cn:2:dp:1:ls:0:hid:61396497:z:180:i:202011021656010:et:1604325370:c:1:rn:533694064:rqn:2:u:1604325368705595794:w:1000x660:s:1536x864x24:sk:1.25:ifr:1:sti:1:hdl:1:cpf:1:eu:0:ns:1604325353775:rqnl:1:adb:2:pp:3629563401:ti:1:st:1604325370:t:Авторизация",
+      "time" : {
+        "start" : 1604325372833,
+        "stop" : 1604325372833,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST https://mc.yandex.ru/watch/784657/1?page-url=https://passport.yandex.ru/auth?retpath=https%3A%2F%2Fpassport.yandex.ru%2Fprofile&noreturn=1&charset=utf-8&ut=noindex&browser-info=pa:1:ar:1:gdpr:8-0:vf:1oc1oo18i9y4fw:fu:3:en:utf-8:la:ru-RU:v:241:cn:2:dp:1:ls:0:hid:61396497:z:180:i:202011021656010:et:1604325370:c:1:rn:1068945569:rqn:3:u:1604325368705595794:w:1000x660:s:1536x864x24:sk:1.25:ifr:1:sti:1:hdl:1:cpf:1:eu:0:ns:1604325353775:rqnl:1:adb:2:pp:3629563401:ti:1:st:1604325370",
+      "time" : {
+        "start" : 1604325372833,
+        "stop" : 1604325372833,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST https://mc.yandex.ru/watch/784657/1?page-url=https://passport.yandex.ru/auth?retpath=https%3A%2F%2Fpassport.yandex.ru%2Fprofile&noreturn=1&charset=utf-8&ut=noindex&browser-info=pa:1:ar:1:gdpr:8-0:vf:1oc1oo18i9y4fw:fu:3:en:utf-8:la:ru-RU:v:241:cn:2:dp:1:ls:0:hid:61396497:z:180:i:202011021656010:et:1604325370:c:1:rn:286950412:rqn:4:u:1604325368705595794:w:1000x660:s:1536x864x24:sk:1.25:ifr:1:sti:1:hdl:1:cpf:1:eu:0:ns:1604325353775:rqnl:1:adb:2:pp:3629563401:ti:1:st:1604325370",
+      "time" : {
+        "start" : 1604325372834,
+        "stop" : 1604325372834,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://mc.yandex.ru/watch/784657?page-url=goal://passport.yandex.ru/2step_domik_show_login_form&page-ref=https://passport.yandex.ru/auth?retpath=https%3A%2F%2Fpassport.yandex.ru%2Fprofile&noreturn=1&charset=utf-8&ut=noindex&browser-info=ar:1:gdpr:8-0:vf:1oc1oo18i9y4fw:fu:3:en:utf-8:la:ru-RU:v:241:cn:2:dp:1:ls:0:hid:61396497:z:180:i:202011021656010:et:1604325370:c:1:rn:955246267:rqn:5:u:1604325368705595794:w:1000x660:s:1536x864x24:sk:1.25:ifr:1:sti:1:hdl:1:cpf:1:eu:0:ns:1604325353775:rqnl:1:adb:2:pp:3629563401:ti:1:st:1604325370:t:Авторизация",
+      "time" : {
+        "start" : 1604325372835,
+        "stop" : 1604325372835,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST https://mc.yandex.ru/watch/784657/1?page-url=https://passport.yandex.ru/auth/welcome?retpath=https%3A%2F%2Fpassport.yandex.ru%2Fprofile&noreturn=1&charset=utf-8&ut=noindex&browser-info=pa:1:ar:1:gdpr:8-0:vf:1oc1oo18i9y4fw:fu:1:en:utf-8:la:ru-RU:v:241:cn:2:dp:1:ls:0:hid:61396497:z:180:i:202011021656010:et:1604325370:c:1:rn:764617667:rqn:6:u:1604325368705595794:w:1000x660:s:1536x864x24:sk:1.25:ifr:1:sti:1:hdl:1:cpf:1:eu:0:ns:1604325353775:rqnl:1:adb:2:pp:3629563401:ti:1:st:1604325370",
+      "time" : {
+        "start" : 1604325372835,
+        "stop" : 1604325372835,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST https://mc.yandex.ru/watch/784657/1?page-url=https://passport.yandex.ru/auth/welcome?retpath=https%3A%2F%2Fpassport.yandex.ru%2Fprofile&noreturn=1&charset=utf-8&ut=noindex&browser-info=pa:1:ar:1:gdpr:8-0:vf:1oc1oo18i9y4fw:fu:1:en:utf-8:la:ru-RU:v:241:cn:2:dp:1:ls:0:hid:61396497:z:180:i:202011021656010:et:1604325370:c:1:rn:785400102:rqn:7:u:1604325368705595794:w:1000x660:s:1536x864x24:sk:1.25:ifr:1:sti:1:hdl:1:cpf:1:eu:0:ns:1604325353775:rqnl:1:adb:2:pp:3629563401:ti:1:st:1604325370",
+      "time" : {
+        "start" : 1604325372836,
+        "stop" : 1604325372836,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "22c4f03b3721185c",
+      "name" : "habr_cypress_test.spec.js:2020-11-02T13:56:12.848Z",
+      "source" : "22c4f03b3721185c.png",
+      "type" : "image/png",
+      "size" : 732046
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 23,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Cypress Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "573c0d1a0ffe9dbb.json",
+  "parameterValues" : [ ]
+}

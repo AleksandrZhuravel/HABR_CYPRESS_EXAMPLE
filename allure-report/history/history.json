@@ -1,0 +1,41 @@
+{
+  "a6cd3cb348a95ee402d70aad56898e01" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "eeffa9d43ec87527",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604325373917,
+        "stop" : 1604325379198,
+        "duration" : 5281
+      }
+    } ]
+  },
+  "b8c491841fa07d24f4cd0d22e7309fcd" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "573c0d1a0ffe9dbb",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying: Expected to find element: `div[class=\"Textinput-Hint Textinput-Hint_state_error\"]`, but never found it.",
+      "time" : {
+        "start" : 1604325353400,
+        "stop" : 1604325373848,
+        "duration" : 20448
+      }
+    } ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Cypress Tests",
+    "children" : [ {
+      "name" : "None-existent login test",
+      "uid" : "573c0d1a0ffe9dbb",
+      "parentUid" : "8a8a6150af124839f3ace2286fb24a8e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1604325353400,
+        "stop" : 1604325373848,
+        "duration" : 20448
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "None-existent password test",
+      "uid" : "eeffa9d43ec87527",
+      "parentUid" : "8a8a6150af124839f3ace2286fb24a8e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604325373917,
+        "stop" : 1604325379198,
+        "duration" : 5281
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "8a8a6150af124839f3ace2286fb24a8e"
+  } ]
+}

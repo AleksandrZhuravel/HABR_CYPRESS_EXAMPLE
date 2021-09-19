@@ -1,0 +1,21 @@
+[ {
+  "uid" : "573c0d1a0ffe9dbb",
+  "name" : "None-existent login test",
+  "time" : {
+    "start" : 1604325353400,
+    "stop" : 1604325373848,
+    "duration" : 20448
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "eeffa9d43ec87527",
+  "name" : "None-existent password test",
+  "time" : {
+    "start" : 1604325373917,
+    "stop" : 1604325379198,
+    "duration" : 5281
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
